@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "sharp": "^0.22.1",
-    "socket.io": "^2.2.0"
-  }
-}
