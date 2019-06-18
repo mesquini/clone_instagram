@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './Feed.css'
+import './CSS/Feed.css'
 import io from 'socket.io-client'
 
 import more from '../assets/more.svg'
@@ -15,7 +15,7 @@ class Feed extends Component{
     }
     async componentDidMount(){
         this.registerToSocket()
-        const respose = await api.get('posts')
+        const respose = await api.get('/')
         this.setState({feed: respose.data})
     }
     registerToSocket = () =>{
@@ -34,7 +34,7 @@ class Feed extends Component{
         })
     }
     handleLike = id =>{
-        api.post(`/posts/${id}/like`)
+        api.post(`/${id}/like`)
     }
     render(){
         return(
@@ -49,7 +49,7 @@ class Feed extends Component{
                             <img src={more} alt="mais"/>
                         
                     </header>
-                        <img src={`http://localhost:8080/files/${post.image}`} alt="image"/>
+                        <img src={`http://localhost:8080/files/${post.image}`} />
 
                         <footer>
                             <div className="actions">

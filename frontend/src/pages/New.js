@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './New.css'
+import './CSS/New.css'
 import api from '../serveces/api'
 
 class New extends Component{
@@ -18,7 +18,7 @@ class New extends Component{
         data.append('author', this.state.author)
         data.append('place', this.state.place)
         data.append('description', this.state.description)
-        data.append('hashtahs', this.state.hashtags)
+        data.append('hashtags', this.state.hashtags)
         
         await api.post('posts', data)
 
