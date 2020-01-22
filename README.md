@@ -19,7 +19,6 @@ This project was developed at the Semana Omnistack 10 with the following technol
 -  [Axios](https://github.com/axios/axios)
 -  [Cors](https://github.com/expressjs/cors)
 -  [Socket.io](https://github.com/socketio/socket.io)
--  [Material Icons](https://github.com/logtrace/material-icons-react)
 -  [Mongoose](https://github.com/Automattic/mongoose)
 -  [Express](https://github.com/expressjs/express)
 -  [VS Code][vc]
