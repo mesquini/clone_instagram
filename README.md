@@ -13,7 +13,7 @@
 
 ## :rocket: Technologies
 
-This project was developed at the Semana Omnistack 10 with the following technologies:
+This project was developed at the Semana Omnistack 7 with the following technologies:
 
 -  [ReactJS](https://reactjs.org/)
 -  [Axios](https://github.com/axios/axios)
