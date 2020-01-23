@@ -1,4 +1,4 @@
-# clone_instagram
+<h1 align="center">Clone Instagram</h1>
 <br />
  project in NodeJs, ReactJS and MongoDB
  
